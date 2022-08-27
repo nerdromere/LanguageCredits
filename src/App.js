@@ -10,8 +10,8 @@ function App() {
     <div className="App" style={{ color: "#0F2A54", display: "flex", flexDirection: "column", alignItems: "center", fontFamily: "Times New Roman" }}>
       <div style={{ width: "100%", margin: "1vh 0vh", display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <div style={{ fontSize: "2.8vh", textAlign: "center" }}>Elena Eremenko, World Language Proficiency Exam</div>
-          <div style={{ fontSize: "2.3vh", textAlign: "center" }}>and Russian Language Tutor</div>
+          <div style={{ fontSize: "2.8vh", textAlign: "center" }}>Elena Eremenko, World Language Proficiency Test</div>
+          <div style={{ fontSize: "2.3vh", textAlign: "center" }}>Private Russian Language Teacher</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
           <div style={{ fontSize: "2.6vh", textAlign: "center" }}>ElenaRussianLanguage@gmail.com</div>
@@ -19,7 +19,7 @@ function App() {
       </div>
       <div style={{ backgroundImage: `url(${seattle})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", color: "white", width: "100%", minHeight: "20vh",
         display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-around", flexWrap: "wrap" }}>
-          <div style={{ fontSize: "4.3vh", textAlign: "center" }}>Get your World Language Credits!</div>
+          <div style={{ fontSize: "4.3vh", textAlign: "center" }}>Pass the test and get your World Language Credits!</div>
       </div>
       <div style={{ fontSize: "4vh", textAlign: "center", marginTop: "1.5vh" }}>How can I help?</div>
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "50vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
@@ -53,23 +53,22 @@ function App() {
         </div>
         <div style={{ fontSize: "3vh", flex: "1 0 60vw", alignItems: "center" }}>
           I have 17 years experience working with Russian heritage students.
-          My students attend elementary, middle and high schools of Everett
-          and Mukilteo School Districts. <br/> <br/>
-          Most have passed the World
-          proficiency tests being at middle school and received 4 credits for
-          high school. I like to hear their feedback when they pass the tests and proud for their achievements! I pay attention to
+          My students attend elementary, middle and high schools. <br/> <br/>
+          My students who passed the World
+          proficiency test received 4 credits for
+          high school. I like to hear their feedback when they pass the tests and am proud of their achievements! I pay attention to
           the areas they need to improve and help them to gain the skills. <br/> <br/>
 
           In my free time I like to read scientific articles about brain
           development, new technologies and artificial intelligence. <br/> <br/>
 
-          I also like to spend my time with my children going for a walk, baking
+          I also like to spend time with my children, baking
           their favorite cakes and doing mutual projects. <br/> <br/>
         </div>
       </div>
       <hr/>
       <div style={{ fontSize: "4vh", textAlign: "center", marginTop: "1.5vh" }}>My credentials</div>
-      <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "60vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <div style={{ margin: "2vh 10vw 3vh", boxShadow: "0 0px 1.2vh black", padding: "2vh 2vw", width: "60vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", margin: "3vh 1vw" }}>
         <ul style={{ margin: "1vh 0 0 0" }}>
             <li>17 years experience of teaching Russian heritage students.</li>
@@ -83,69 +82,9 @@ function App() {
           <p style={{ marginLeft: "1vw" }}>Contact me for my Resume</p>
         </div>
       </div>
-      <Container>
-      <div style={{ fontSize: "4vh", textAlign: "center", marginTop: "2vh" }}>Previous Experiences</div>
-        <Accordion style={{ fontSize: "3vh" }}>
-          <Accordion.Item eventKey="0">
-            <Accordion.Header><div style={{ fontSize: "3vh" }}>How my lessons look like</div></Accordion.Header>
-            <Accordion.Body >
-              For the last two years I am doing online lessons through the Zoom.
-              I work with a group of students and individually.
-              Elementary and middle school students in groups have two lessons
-              for 45 min.
-              They read and write in Russian. They study Russian grammar,
-              literature and learn poems. I have Russian language programs for pre
-              K-4 grade.
-              For those middle and high school students who wants to sharp their
-              skills and be ready to pass the World Language Proficiency exam I
-              have 1 hour lessons.
-              I evaluate their skills and offer them individual program to improve
-              their reading, writing, speaking and listening skills.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header><div style={{ fontSize: "3vh" }}>My experience working with MSD</div></Accordion.Header>
-            <Accordion.Body>
-              I started to work for the Mukilteo School District as a Natural Leader. I
-              have 17 years experience working with Russian Ukrainian community
-              who’s children attend schools in Everett, Edmond, Mill Creek,
-              Lynwood and Mukilteo.
-              I received two Certificates of achievement from MSD. These
-              certificates are awarded to an outstanding Natural Leader in
-              recognition of the valuable contributions you have made to your
-              community, families, and children for the Readiness to Learn
-              Program.
-              For Odyssey Elementary School I organized Russian Club for children
-              from Russian and Ukrainian families and taught them to read and
-              write in Russian.
-              I helped students at the Middle Schools of the MSD during tests
-              periods at the end of the school years.
-              At Mariner High School I worked as a Russian/Ukrainian Parent
-              Liaison. I communicated with Russian and Ukrainian parents
-              regarding the teachers' requests. Arranged meetings between the
-              parents and the teachers. Participated in the parent/teacher
-              conferences.
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
-        <div style={{ marginTop: "15vh" }}></div>
-      </Container>
     </div>
     
   );
 }
 
 export default App;
-
-{/* <Card className="" style={{ width: '18rem' }}>
-<Card.Body>
-  <Card.Title>My Credentials</Card.Title>
-  <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-  <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
-  </Card.Text>
-  <Card.Link href="#">Card Link</Card.Link>
-  <Card.Link href="#">Another Link</Card.Link>
-</Card.Body>
-</Card> */}
