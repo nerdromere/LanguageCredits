@@ -56,7 +56,7 @@ function App() {
           My students attend elementary, middle and high schools. <br/> <br/>
           My students who passed the World
           proficiency test received 4 credits for
-          high school. I like to hear their feedback when they pass the tests and am proud of their achievements! I pay attention to
+          high school. I like to hear their feedback when they pass the tests and I am proud of their achievements! I pay attention to
           the areas they need to improve and help them to gain the skills. <br/> <br/>
 
           In my free time I like to read scientific articles about brain
@@ -76,7 +76,6 @@ function App() {
             <li>Teacher Certificate for Russian as a Foreign Language from Moscow <br/>State University, Russia.</li>
             <li>Consultant for Russian Startalk language program at UW.</li>
             <li>Russian Language Tests: ACTFL OPIC and WRT. Superior rating.</li>
-            <li>Middle/high school students who need to sharpen their skills have 1 hour lessons</li>
           </ul>
           <br/>
           <p style={{ marginLeft: "1vw" }}>Contact me for my Resume</p>
